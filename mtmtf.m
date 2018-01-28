@@ -21,7 +21,7 @@
 % cproist@gmail.com
 
 
-function [fq,H,ph] = mtmTF(x,y,dt,NW)
+function [fq,H,ph] = mtmtf(x,y,dt,NW)
 confn=0;
 x   = x(:)-mean(x); y=y(:)-mean(y);
 
